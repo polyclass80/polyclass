@@ -27,11 +27,11 @@ tr.odd {
   background: #e4e4e4;
   background: rgba(0, 0, 0, 0.105);
 }
-table tr th {
+/*table tr th {
   background: #757575;
   background: rgba(0, 0, 0, 0.51);
   border-bottom-style: none;
-}
+}*/
 table tr th,
 table tr th a,
 table tr th a:hover,
@@ -45,7 +45,7 @@ table tbody tr th {
 tr td,
 tr th {
   padding: 4px 9px;
-  border: 1px solid #fff;
+  border: 0px solid #fff;
   text-align: left; /* LTR */
 }
 .tabledrag-handle:hover,
