@@ -38,14 +38,14 @@
 
   {{ title_prefix }}
   {% if label %}
-    <h4 class="ui top attached header" {{ title_attributes }} style="border-bottom:0px;">{{ label }}</h4>
+    <h4 class="ui top attached header" {{ title_attributes }}>{{ label }}</h4>
   {% endif %}
   {{ title_suffix }}
-
+  <div class="ui attached segment">
   {% block content %}
     <div{{ content_attributes.addClass('content') }}>
       {{ content }}
     </div>
   {% endblock %}
 
-</div>
+</div></div>
